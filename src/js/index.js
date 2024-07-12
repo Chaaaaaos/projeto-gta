@@ -11,6 +11,6 @@ botao.addEventListener("click", () => {
 botoesPlataformas.forEach((botaoPlataforma) => {
     botaoPlataforma.addEventListener("click", (event) => {
         event.stopPropagation();
-        console.log("Plataforma selecionada:", botaoPlataforma.alt);
+        console.log("Plataforma selecionada");
     });
 });
